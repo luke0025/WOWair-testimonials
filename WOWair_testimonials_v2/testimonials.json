@@ -1,0 +1,20 @@
+{ "testimonials": [
+    {
+    "name": "Ken",
+    "age": 23,
+    "destination": "Hawaii",
+    "testimonial": "I had a wonderfull time..."
+    },
+    {
+    "name": "Barbara",
+    "age": 34,
+    "destination": "Iceland",
+    "testimonial": "I loved the beautifull nature..."
+    },
+    {
+    "name": "Dory",
+    "age": 26,
+    "destination": "San Francisco",
+    "testimonial": "It was the best time of my life when..."
+    }]
+}
