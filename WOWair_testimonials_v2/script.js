@@ -231,51 +231,39 @@ function previousSlide(e) {
             }
 }
 
-/*
-var slider = 0;
+
+
+var islider = 0;
 carousel();
 
 function carousel() {
   var i;
-  var x = document.getElementsByClassName("slide");
+  var x = document.getElementsByClassName("IMGslider");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
-  slider++;
-  if (slider > x.length) {slider = 1}    
-  x[slider-1].style.display = "block";  
-  setTimeout(carousel, 3000);    
+  islider++;
+  if (islider > x.length) {islider = 1}    
+  x[islider-1].style.display = "block";  
+  setTimeout(carousel, 3000);  
 }
 
-/*
 
+var vslider = 0;
+carousels();
 
-
-
-fetch('testimonials.json').then(function (response) {
-    return response.json();
-}).then(function (obj) {
-    //console.log(obj);
-    loadTestimonials(obj);
-}).catch(function (error) {
-    console.error('Something went wrong retrieving the data');
-    console.error(error);
-})
-
-function loadTestimonials(obj) {
-    for (let i = 0; i < obj.testimonials.length; i++) {
-        const name = document.createElement('p');
-        name.textContent = obj.testimonials[i].name + ", " + obj.testimonials[i].age;
-        document.querySelector('#testimonials').appendChild(name);
-
-        const dest = document.createElement('p');
-        dest.textContent = "Destination: " + obj.testimonials[i].destination;
-        document.querySelector('#testimonials').appendChild(dest);
-
-        const test = document.createElement('p');
-        test.textContent = "Testimonial: " + obj.testimonials[i].testimonial;
-        document.querySelector('#testimonials').appendChild(test);
-    }
+function carousels() {
+  var v;
+  var y = document.getElementsByClassName("IMGslider2");
+  for (v = 0; v < y.length; v++) {
+    y[v].style.display = "none";  
+  }
+  vslider++;
+  if (vslider > y.length) {vslider = 1}    
+  y[vslider-1].style.display = "block";  
+  setTimeout(carousels, 3000);  
 }
-*/
+
+
+
 

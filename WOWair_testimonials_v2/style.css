@@ -2,6 +2,10 @@
 
 body {
     margin: 0;
+    background-image: url(https://insideflyer.dk/wp-content/uploads/2016/11/InsideFlyer-DK-WOW-air-Cover-Picture-1-765x420.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: black;
 }
 
 header {
@@ -84,11 +88,33 @@ h2 {
     visibility: hidden;
 }
 
+.IMGslider {
+    visibility: hidden;
+    position: absolute;
+}
+
+.IMGslider2 {
+    visibility: hidden;
+    position: absolute;
+}
+
+
+.image {
+    visibility: hidden;
+    position: absolute;
+}
+
+.image2 {
+    visibility: hidden;
+    position: absolute;
+}
+
 /* SLIDE */
 
 @media (min-width: 700px) {
     .slide {display: none;}
-    .slide.active {display: block;}
+    .slide.active {display: block;} 
+
 
     .button-left {
         position: fixed;
@@ -116,5 +142,35 @@ h2 {
         visibility: visible;
     }
 
+    .IMGslider {
+        max-width: 40vh;
+        visibility: visible;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+    }
+
+    .IMGslider2 {
+        max-width: 40vh;
+        visibility: visible;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+    }
+    
+    .image {
+        position: fixed;
+        top: 10%;
+        left: 10%;
+        visibility: visible;
+        
+    }
+
+    .image2 {
+        position: fixed;
+        top: 10%;
+        right: 30%;
+        visibility: visible;
+    }
+
   }
+
+
+
 
