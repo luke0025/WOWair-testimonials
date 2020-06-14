@@ -7,6 +7,7 @@ const testData = [
         profile: scr="profile/image1.png",
         ratings: scr="star.png",
         photo: "https://images.squarespace-cdn.com/content/v1/5ea2bcb7c4ac31691149f968/1587747063950-GK3FX36IYE04GAKJPN2F/ke17ZwdGBToddI8pDm48kKuiAnntm0j5DGqDi00EyglZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx0xBJ5u9pWgiJWgy9MpFEViNUMgNEhoE7cqVwha7pwyOorRdkhtCGY2sVQ33NUB_k/image-asset.jpeg?format=500w",
+        date: "March 2019",
     },
     {
 		name: "Dory",
@@ -16,7 +17,8 @@ const testData = [
         profile: scr="profile/image3.png",
         ratings: scr="star.png",
         photo: "https://images.squarespace-cdn.com/content/v1/5ea2bcb7c4ac31691149f968/1587747064453-0NHM1KDX5UE20ODB55P4/ke17ZwdGBToddI8pDm48kAjnGcc-szhzWxdWA-NtP01Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpy-v9athTaMeX-qThU6Jap2Bg3JHkx8Vjg05Zf535dcep3aVtbbMcWd2q8hs1BlPsk/image-asset.jpeg?format=500w",
-	},
+        date: "March 2019",
+    },
 	{
 		name: "Valdemar",
 		age: 30,
@@ -25,6 +27,7 @@ const testData = [
         profile: scr="profile/image4.png",
         ratings: scr="star.png",
         photo: "https://images.squarespace-cdn.com/content/v1/5ea2bcb7c4ac31691149f968/1587747064113-69YY2M0WSSQNE996RJJM/ke17ZwdGBToddI8pDm48kAbrGIGafpX1W5uUmuXu7zFZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxiS1R8uPSgT87E4-4GTFeLSv2RTao2pyx_-uALz4XAKM7deYkfcmSHFLKQ5GDhunU/image-asset.jpeg?format=500w",
+        date: "March 2019",
     },
     {
 		name: "Barbara",
@@ -34,6 +37,7 @@ const testData = [
         profile: scr="profile/image2.png",
         ratings: scr="star.png",
         photo: "https://images.pexels.com/photos/3989821/pexels-photo-3989821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        date: "March 2019",
     },
     {
 		name: "Susan",
@@ -43,6 +47,7 @@ const testData = [
         profile: scr="profile/image5.png",
         ratings: scr="star.png",
         photo: "https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        date: "March 2019",
     },
     {
 		name: "Jasmine",
@@ -52,6 +57,7 @@ const testData = [
         profile: scr="profile/image6.png",
         ratings: scr="star.png",
         photo: "https://images.pexels.com/photos/1509582/pexels-photo-1509582.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        date: "March 2019",
     },
     {
 		name: "Ingrid",
@@ -61,6 +67,7 @@ const testData = [
         profile: scr="profile/image7.png",
         ratings: scr="star.png",
         photo: "https://images.pexels.com/photos/3617500/pexels-photo-3617500.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        date: "March 2019",
     },
     {
 		name: "Morty",
@@ -70,6 +77,7 @@ const testData = [
         profile: scr="profile/image8.png",
         ratings: scr="star.png",
         photo: "https://images.pexels.com/photos/3900437/pexels-photo-3900437.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        date: "March 2019",
     },
     {
 		name: "Nicole",
@@ -79,6 +87,7 @@ const testData = [
         profile: scr="profile/image9.png",
         ratings: scr="star.png",
         photo: "https://images.pexels.com/photos/2819550/pexels-photo-2819550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        date: "March 2019",
     },
     {
 		name: "Ben",
@@ -88,6 +97,7 @@ const testData = [
         profile: scr="profile/image10.png",
         ratings: scr="star.png",
         photo: "https://images.pexels.com/photos/3715084/pexels-photo-3715084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        date: "March 2019",
     },
     {
 		name: "Cassandra",
@@ -97,6 +107,7 @@ const testData = [
         profile: scr="profile/image11.png",
         ratings: scr="star.png",
         photo: "https://images.pexels.com/photos/972391/pexels-photo-972391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        date: "March 2019",
     },
     {
 		name: "Nick",
@@ -106,6 +117,7 @@ const testData = [
         profile: scr="profile/image12.png",
         ratings: scr="star.png",
         photo: "https://images.pexels.com/photos/3278087/pexels-photo-3278087.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        date: "March 2019",
     },
 
 ];
@@ -124,7 +136,8 @@ function testTemplate(test) {
 	<h2 class="test-name">${test.name} <span class="age">(${test.age})</span></h2>
 	<p class="test-destination">${test.destination}
 	<img class="test-photo" src="${test.photo}">
-	<p class="test-testimonial">${test.testimonial}
+    <p class="test-testimonial">${test.testimonial}
+    <p class="test-date">${test.date}
     </div>
     `
 }

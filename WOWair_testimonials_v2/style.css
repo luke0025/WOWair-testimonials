@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -76,6 +78,11 @@ img {
     color: #888;
 }
 
+.test-date {
+    text-align: end;   
+    font-size: xx-small;
+}
+
 h2 {
     margin-bottom: 0;
 }
@@ -86,6 +93,19 @@ h2 {
 
 .button-right {
     visibility: hidden;
+}
+
+.button-up {
+    visibility: visible;
+    position: fixed;
+    bottom: 1%;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.5;
+    border: none;
+    right: 1%;
 }
 
 .IMGslider {
@@ -142,6 +162,10 @@ h2 {
         visibility: visible;
     }
 
+    .button-up {
+        visibility: hidden;
+    }
+
     .IMGslider {
         max-width: 40vh;
         visibility: visible;
@@ -155,7 +179,6 @@ h2 {
     }
     
     .image {
-        position: fixed;
         top: 10%;
         left: 10%;
         visibility: visible;
@@ -163,13 +186,22 @@ h2 {
     }
 
     .image2 {
-        position: fixed;
         top: 10%;
         right: 30%;
         visibility: visible;
     }
-
   }
+
+.logo {
+    position: fixed;
+    width: 10vh;
+    bottom: 5%;
+    left: 5%;
+}
+
+
+
+
 
 
 
